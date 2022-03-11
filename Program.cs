@@ -53,7 +53,7 @@ namespace IntroToOOP
         {
             FootbalMan footbalMan = new();
 
-            Console.WriteLine("Please, input quantity o f goals");
+            Console.WriteLine("Please, input quantity of goals");
 
             footbalMan.goal = uint.Parse(Console.ReadLine());
 
